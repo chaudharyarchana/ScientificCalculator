@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const[answer,setAnswer] = useState("0")
-  const[expression,setExpression]=useState("")
+
 
   function calculateExpression(expression) {
     try { 
@@ -96,7 +96,7 @@ function App() {
                    }
                     else{
                     setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,Math.PI])
+                  
                 }}>&pi;</button>
 
                 <button onClick={(e)=>{
@@ -108,9 +108,6 @@ function App() {
                     else{
                     setAnswer([...answer,e.target.innerHTML])}
 
-                    
-                  setExpression([...expression,e.target.innerHTML])
-
                 }}>7</button>
 
                 <button onClick={(e)=>{
@@ -119,7 +116,7 @@ function App() {
                      }
                       else{
                       setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
+                  
 
                 }}>8</button>
 
@@ -129,13 +126,12 @@ function App() {
                    }
                     else{
                     setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
+                  
 
                 }}>9</button>
 
                 <button onClick={(e)=>{
                   setAnswer([...answer,e.target.innerHTML])
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>/</button>
 
@@ -163,7 +159,6 @@ function App() {
                      }
                       else{
                       setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>4</button>
 
@@ -173,7 +168,6 @@ function App() {
                    }
                     else{
                     setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>5</button>
 
@@ -183,13 +177,11 @@ function App() {
                      }
                       else{
                       setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>6</button>
 
                 <button onClick={(e)=>{
                   setAnswer([...answer,e.target.innerHTML])
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>*</button>
 
@@ -217,7 +209,6 @@ function App() {
                             }
                      else{
                         setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
                 }}>1</button>
 
                 <button onClick={(e)=>{
@@ -226,7 +217,6 @@ function App() {
                    }
                     else{
                     setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>2</button>
 
@@ -236,7 +226,6 @@ function App() {
                    }
                     else{
                     setAnswer([...answer,e.target.innerHTML])}
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>3</button>
 
@@ -246,7 +235,6 @@ function App() {
                     else{
                       setAnswer(e.target.innerHTML)
                     }
-                  setExpression([...expression,e.target.innerHTML])
                   
                 }}>-</button>
 
@@ -269,7 +257,6 @@ function App() {
                     else{
                       setAnswer(e.target.innerHTML)
                     }
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>0</button>
 
@@ -287,7 +274,6 @@ function App() {
 
                 <button onClick={(e)=>{
                   setAnswer([...answer,e.target.innerHTML])
-                  setExpression([...expression,e.target.innerHTML])
 
                 }}>+</button>
                 
