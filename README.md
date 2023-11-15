@@ -1,3 +1,7 @@
+![Screenshot (110)](https://github.com/chaudharyarchana/ScientificCalculator/assets/73676232/e3f03d2f-b65f-456d-bfa5-49f247f9b491)
+![Screenshot (108)](https://github.com/chaudharyarchana/ScientificCalculator/assets/73676232/15212021-95a5-468f-91ee-d1e13d2bf57b)
+![Screenshot (109)](https://github.com/chaudharyarchana/ScientificCalculator/assets/73676232/c8b1b168-e463-4d95-b26c-60eb9f2130c3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
